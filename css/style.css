@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    counter-reset: #333;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, button{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #007bbf;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+#results{
+    margin-top: 20px;
+}
+
+#results h2{
+    text-align: center;
+    color: #333;
+}
+
+#weatherResults, #apodResults{
+    margin: 0, 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#apodResults{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    white-space: normal; 
+}

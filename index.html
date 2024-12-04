@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Assignment 4</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Weather and NASA APOD Finder</h1>
+        <form id="fetchDataFrom">
+            <label for="city">Enter City:</label>
+            <input type="text" id="city" name="city" placeholder="Ex: New York" required>
+
+            <label for="date">Select Date (YYYY-MM-DD):</label>
+            <input type="date" id="date" name="date" required>
+
+            <button id="submit">Submit</button>
+        </form>
+
+        <div id="result">
+            <h2>Results</h2>
+            <div id="weatherResults"></div>
+            <div id="apodResults"></div>
+        </div>
+    </div>
+</body>
+</html>
